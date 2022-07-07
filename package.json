@@ -1,0 +1,18 @@
+{
+  "name": "markup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css-watch": "tailwindcss build -i ./src/style.css -o ./public/style.css --watch",
+    "build-css-prod": "tailwindcss build -i ./src/style.css -o ./public/style.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.1.4"
+  }
+}
